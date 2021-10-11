@@ -5,6 +5,7 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    font-family: 'Rubik', sans-serif;
 }
 
 /*
@@ -25,3 +26,4 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
