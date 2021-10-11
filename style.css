@@ -6,6 +6,67 @@ html { box-sizing: border-box; }
 body {
     text-rendering: optimizeLegibility;
     font-family: 'Rubik', sans-serif;
+    margin: 0 300px 0 300px;
+}
+
+.velikosti li {
+    display: inline;
+}
+
+.vybrana {
+    color: #f15f42;
+    border: 2px solid #f15f42;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+.tlacitko {
+    display: inline-block;
+    background-color: #f15f42;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: 0;
+}
+
+.tlacitko a:hover,
+.tlacitko a:focus,
+.tlacitko a:active {
+    background-color: white;
+}
+
+.zbozi {
+    width: 670px;
+}
+
+.vizual {
+    width: 335px;
+    padding: 30px;
+    background-image: linear-gradient(to bottom, #06d7c1, #00d6aa, #00d48f, #2fd06f, #50cc49);
+    float: left;
+    color: white;
+    margin-right: 30px;
+}
+
+.detaily {
+    padding: 30px;
+}
+
+.bota {
+    position: relative;
+    left: -120px;
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 /*
